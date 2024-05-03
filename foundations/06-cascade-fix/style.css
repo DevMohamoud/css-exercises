@@ -9,21 +9,24 @@ body {
 }
 
 .small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
+  font-size: 10px;
 }
 
 .confirm {
-  background: green;
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
+.cancel {
+  background-color: white;
+  color: black;
+}
+.text.child {
+  font-weight: bold;
+  font-size: 10px;
+}
 
-.button {
+/* .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -39,4 +42,4 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
-}
+} */
