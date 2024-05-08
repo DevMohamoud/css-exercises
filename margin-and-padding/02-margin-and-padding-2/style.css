@@ -1,27 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background: #eee;
   font-family: sans-serif;
 }
 
-.card {
-  width: 400px;
+.card { 
+  border: 6px solid #eee;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  /* width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 16px auto; */
 }
 
 .title {
   background: #e3f4ff;
+  font-weight: bold;
+  border: 8px solid #eee;
+  padding: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  border: 8px solid #eee;
+  padding: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
-button {
+.button-container button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 6px auto;
+  border: none;
+  padding: 5px;
 }
