@@ -1,6 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 12px;
+  
+
+}
+ul {
+  display: flex;
+  gap: 10px;
 }
 
 .logo {
